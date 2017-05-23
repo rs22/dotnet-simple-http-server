@@ -1,0 +1,11 @@
+{
+  "name": "simple-http-server",
+  "version": "0.0.1",
+  "description": "",
+  "bin" : { "SimpleHttpServer" : "./index.js" },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "install": "dotnet restore"
+  }
+}
