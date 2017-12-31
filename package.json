@@ -1,6 +1,6 @@
 {
   "name": "dotnet-simple-http-server",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple HTTP Server built with ASP.NET Core",
   "bin" : { "dotnet-SimpleHttpServer" : "./index.js" },
   "author": "Robert Schmid",

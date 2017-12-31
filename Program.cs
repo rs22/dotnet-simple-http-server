@@ -62,7 +62,8 @@ namespace SimpleHttpServer
             {
                 FileProvider = hostingEnvironment.ContentRootFileProvider,
                 RequestPath = new PathString(string.Empty),
-                EnableDirectoryBrowsing = true
+                EnableDirectoryBrowsing = true,
+                EnableDefaultFiles = false
             };
 
             options.StaticFileOptions.ServeUnknownFileTypes = true;
